@@ -4,23 +4,22 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: white;
-	background-image: 
 }
 
-#band {
+#bands {
     list-style-type: square;
     padding: 0;
     margin: 0;
     max-width: 600px;
 }
 
-#band li {
+#bands li {
     padding: 25px 20px;
     font-size: 20px;
     border-bottom: 1px solid #f0f0f0;
     margin-left: 40px;
 }
 
-#band li:last-child {
+#bands li:last-child {
     border-bottom: 1px solid #f0f0f0;
 }
