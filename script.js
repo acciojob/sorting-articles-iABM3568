@@ -1,6 +1,3 @@
-//your JS code here. If required.
-// Original band names
-// Original band names
 const bands = [
     'The Plot in You', 
     'The Devil Wears Prada', 
@@ -127,8 +124,8 @@ for (let i = 0; i < bands.length; i++) {
     }
 }
 
-// Get the ul element - CHANGED FROM 'band' to 'bands'
-const bandList = document.getElementById('bands');
+// Get the ul element - FIXED: Changed from 'bands' to 'band'
+const bandList = document.getElementById('band');
 
 // Add each band to the list
 for (let i = 0; i < bands.length; i++) {
