@@ -28,7 +28,7 @@ const sortedBands = bands.sort((a, b) => {
 });
 
 // Insert into UL
-const ul = document.getElementById('band');
+const ul = document.getElementById('bands');
 sortedBands.forEach(band => {
   const li = document.createElement('li');
   li.textContent = band;
